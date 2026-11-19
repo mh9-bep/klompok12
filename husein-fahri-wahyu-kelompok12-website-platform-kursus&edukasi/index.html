@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASUK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/icons/ambalearn.png">
+</head>
+<body>
+    <main class="container">
+        <div class="nav">
+            <img src="assets/icons/ambalearn.png" alt="logo-ambalearn" class="img">
+        </div>
+        <div class="div-form">
+            <form action="pages/halaman_utama.html">
+                <label for="user">
+                    <b>Username</b><br>
+                </label>
+                <input type="text" id="user" placeholder="Masukan Username" required class="form-username"><br><br>
+                <label for="tgl">
+                    <b>Tanggal Lahir</b><br>
+                </label>
+                <input type="date" id="tgl" required class="form-date"><br><br>
+                <b>Jenis Kelamin</b><br>
+                <input type="radio" name="jk" id="laki-laki" required >
+                <b>laki-laki</b><br>
+                <input type="radio" name="jk" id="perempuan" required>
+                <b>perempuan</b><br><br>
+                <label for="email">
+                    <b>Email</b><br>
+                </label>
+                <input type="email" id="email" placeholder="masukan Email" required class="form-email"><br><br>
+                <label for="pw">
+                    <b>Pasword</b><br>
+                </label>
+                <input type="password" id="pw" placeholder="Masukan Pasword" maxlength="8" required class="form-pw"><br><br>
+                <input type="submit" value="Masuk" required class="form-sumbit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
